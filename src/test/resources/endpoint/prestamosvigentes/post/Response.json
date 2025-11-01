@@ -1,0 +1,36 @@
+[
+    {
+        "altaRegistro": 1573163152000,
+        "bajaRegistro": null,
+        "actualizacionRegistro": null,
+        "id": 62,
+        "monto": 10000.5,
+        "impDescuentoNomina": 850.78,
+        "impTotalPagar": 125000.67,
+        "fecPrimerDescuento": 1575007200000,
+        "numPeriodoNomina": 11,
+        "refCuentaClabe": "123456789012345678",
+        "condicionOferta": 1,
+        "promotor": null,
+        "simulacion": 1,
+        "credito": 2,
+        "solicitud": 165
+    },
+    {
+        "altaRegistro": 1573163206000,
+        "bajaRegistro": null,
+        "actualizacionRegistro": null,
+        "id": 63,
+        "monto": 6000.5,
+        "impDescuentoNomina": 300.78,
+        "impTotalPagar": 7500.67,
+        "fecPrimerDescuento": 1561784400000,
+        "numPeriodoNomina": 6,
+        "refCuentaClabe": "123456789012345678",
+        "condicionOferta": 3,
+        "promotor": null,
+        "simulacion": 1,
+        "credito": 2,
+        "solicitud": 166
+    }
+]

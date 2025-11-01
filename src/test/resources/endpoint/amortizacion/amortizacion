@@ -1,0 +1,40 @@
+--Registra en ambas tablas: MCLT_PRESTAMO_INSUMO_TA y  MCLT_PRESTAMO_TA al mismo tiempo  (regresa solo el insumo creado, pero ya esta preparado por si se quiere la lista de amortizacion)
+http://localhost/prestamoBack/webresources/amortizacion/registrarInsumosBase
+
+--cve_solicitud
+{
+    "historico":"0",
+   "cveSolicitud":"6129",
+   "plazo":"12",
+   "cat":"34",
+   "importeMontoSolicitado":"9400.00",
+   "importeTotalPagar":"10975.8",
+   "cveTipoSimulacion":"1",
+   "importeDescuentoMensual":"914.65"
+   
+  }
+
+-- folio_sipre
+{
+    "historico":"1",
+   "plazo":"6",
+   "cat":"34",
+   "importeMontoSolicitado":"10000.00",
+   "cveTipoSimulacion":"1",
+    "folioSipre":"001188071"
+  }
+
+-- Por cve_solicitud
+http://localhost/prestamoBack/webresources/amortizacion/cvesolicitud
+{
+   "cveSolicitud":"6129"
+}
+
+--Capital insoluto folioSipre  
+http://localhost/prestamoBack/webresources/amortizacion/capitalinsoluto
+{
+    "numMensualidad":"10",
+    "folioSipre":"001446897"
+  }
+
+
